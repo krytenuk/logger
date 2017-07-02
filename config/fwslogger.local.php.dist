@@ -1,0 +1,16 @@
+<?php
+return [
+    'fwsLogger' => [
+        'infoLogger' => [
+            'file' => 'logs/variable_event.log',
+        ],
+        'errorLogger' => [
+            'file' => 'logs/error.log',
+        ],
+        'emailLogger' => [
+            'to' => 'toEmail@example.com',
+            'from' => 'server@example.com',
+            'subject' => 'Debug log message',
+        ],
+    ],
+];

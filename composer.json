@@ -1,0 +1,26 @@
+{
+    "name": "freedom/logger",
+    "description": "ZF2 module for logging",
+    "version": "1.0",
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zend-log": "^2.3.0",
+        "zendframework/zend-mail": "^2.3.0",
+        "zendframework/zend-mvc": "^2.3.0"
+    },
+    "authors": [{
+            "name": "Garry Childs",
+            "email": "info@freedomwebservices.net",
+            "homepage": "https://www.freedomwebservices.net/"
+        }],
+    "keywords": ["zf2", "logger", "debugger", "freedom"],
+    "autoload": {
+        "psr-0": {
+            "FwsLogger": "src/"
+        },
+        "classmap": ["./Module.php"]
+    },
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "homepage": "https://github.com/krytenuk/logger"
+}
