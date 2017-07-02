@@ -1,7 +1,6 @@
 {
     "name": "krytenuk/logger",
     "description": "ZF2 module for logging",
-    "version": "1.0",
     "require": {
         "php": ">=5.4.0",
         "zendframework/zend-log": "^2.3.0",
