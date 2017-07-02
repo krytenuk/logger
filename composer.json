@@ -23,5 +23,4 @@
     "license": "BSD-3-Clause",
     "type": "library",
     "homepage": "https://github.com/krytenuk/logger",
-    "minimum-stability": "1.0"
 }
