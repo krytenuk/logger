@@ -1,18 +1,18 @@
 {
     "name": "krytenuk/logger",
-    "description": "ZF2 module for logging",
+    "description": "ZF3 module for logging",
     "require": {
-        "php": ">=5.4.0",
-        "zendframework/zend-log": "^2.3.0",
-        "zendframework/zend-mail": "^2.3.0",
-        "zendframework/zend-mvc": "^2.3.0"
+        "php": "^5.6 || ^7.0",
+        "zendframework/zend-log": "^2.10",
+        "zendframework/zend-mail": "^2.10",
+        "zendframework/zend-mvc": "^3.1"
     },
     "authors": [{
             "name": "Garry Childs",
             "email": "info@freedomwebservices.net",
             "homepage": "https://www.freedomwebservices.net/"
         }],
-    "keywords": ["zf2", "logger", "debugger", "freedom"],
+    "keywords": ["zf3", "logger", "debugger", "freedom"],
     "autoload": {
         "psr-0": {
             "FwsLogger": "src/"
@@ -20,6 +20,6 @@
         "classmap": ["./Module.php"]
     },
     "license": "BSD-3-Clause",
-    "type": "library",
+    "type": "module",
     "homepage": "https://github.com/krytenuk/logger"
 }

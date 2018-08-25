@@ -3,7 +3,7 @@ FwsLogger
 
 Docs now available [online](https://www.freedomwebservices.net/zend-framework/freedom-logger).
 
-ZF2 Debugging and Logging Module
+ZF3 Debugging and Logging Module
 
 This module can send debugging information from your code to either a temporary file, email or permanent error log.
 

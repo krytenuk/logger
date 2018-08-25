@@ -23,15 +23,4 @@ class Module
         EmailLogger::setSubject($config['fwsLogger']['emailLogger']['subject']);
     }
 
-    public function getAutoloaderConfig()
-    {
-        return array(
-            'Zend\Loader\StandardAutoloader' => array(
-                'namespaces' => array(
-                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
-                ),
-            ),
-        );
-    }
-
 }
