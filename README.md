@@ -12,12 +12,6 @@ Installation
 
 ### Main Setup
 
-#### By cloning project
-
-1. Install the [FwsLogger](https://github.com/krytenuk/logger) ZF2 module
-   by cloning it into `./vendor/`.
-2. Clone this project into your `./vendor/` directory.
-
 #### With composer
 
 1. Add this project in your composer.json:
