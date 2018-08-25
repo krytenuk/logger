@@ -24,7 +24,7 @@ Installation
 
     ```json
     "require": {
-        "krytenuk/logger": "1.*"
+        "krytenuk/logger": "2.*"
     }
     ```
 
