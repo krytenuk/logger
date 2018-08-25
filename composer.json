@@ -14,10 +14,9 @@
         }],
     "keywords": ["zf3", "logger", "debugger", "freedom"],
     "autoload": {
-        "psr-0": {
-            "FwsLogger": "src/"
-        },
-        "classmap": ["./Module.php"]
+        "psr-4": {
+            "FwsLogger\\": "src/"
+        }
     },
     "license": "BSD-3-Clause",
     "type": "module",
