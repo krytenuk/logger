@@ -2,11 +2,11 @@
 
 Namespace FwsLogger;
 
-use Zend\Mail\Message;
-use Zend\Log\Writer\Mail;
+use Laminas\Mail\Message;
+use Laminas\Log\Writer\Mail;
 use FwsLogger\Exception\NoFromEmailException;
 use FwsLogger\Exception\NoToEmailException;
-use Zend\Mail\Transport\Sendmail;
+use Laminas\Mail\Transport\Sendmail;
 
 /**
  * FwsLogger email logger class

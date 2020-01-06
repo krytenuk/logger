@@ -2,7 +2,7 @@
 
 Namespace FwsLogger;
 
-use Zend\Log\Writer\Stream;
+use Laminas\Log\Writer\Stream;
 use FwsLogger\Exception\NoFileException;
 
 /**

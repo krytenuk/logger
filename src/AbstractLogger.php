@@ -2,7 +2,7 @@
 
 namespace FwsLogger;
 
-use Zend\Log\Logger;
+use Laminas\Log\Logger;
 
 /**
  * FwsLogger abstract class

@@ -2,7 +2,7 @@
 
 namespace FwsLogger;
 
-use Zend\Mvc\MvcEvent;
+use Laminas\Mvc\MvcEvent;
 use FwsLogger\EmailLogger;
 use FwsLogger\InfoLogger;
 use FwsLogger\ErrorLogger;
