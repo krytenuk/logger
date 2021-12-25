@@ -3,9 +3,9 @@
     "description": "Zend Framework module for logging",
     "require": {
         "php": "^7.0 || ^8.0",
-        "laminas/laminas-log": "^2.10",
-        "laminas/laminas-mail": "^2.10",
-        "laminas/laminas-mvc": "^3.1"
+        "laminas/laminas-log": "^2.15",
+        "laminas/laminas-mail": "^2.15",
+        "laminas/laminas-mvc": "^3.3"
     },
     "authors": [{
             "name": "Garry Childs",
